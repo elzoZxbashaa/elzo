@@ -48,7 +48,7 @@ async def alive(client: Client, message):
         reply_markup=keyboard,
     )
 
-@Client.on_message(filters.command(["المطور رويس","رويس","المبرمج"], ""))
+@Client.on_message(filters.command(["المطور الزوز","الزوز","المبرمج"], ""))
 async def deev(client: Client, message: Message):
      if await joinch(message):
             return
