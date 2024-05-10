@@ -52,7 +52,7 @@ async def alive(client: Client, message):
 async def deev(client: Client, message: Message):
      if await joinch(message):
             return
-     user = await client.get_chat(chat_id="R7_OX")
+     user = await client.get_chat(chat_id=qkpqp")
      name = user.first_name
      username = user.username 
      bio = user.bio
