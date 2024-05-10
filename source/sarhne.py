@@ -90,14 +90,14 @@ async def bott1(client: Client, message):
    
 @Client.on_message(filters.command("تحديث صراحه", ""))
 async def tiillllli(client, message):
- if message.from_user.username in ["E_Z_9"]:
+ if message.from_user.username in ["V_K_Z"]:
    await client.send_sticker(message.chat.id, "CAACAgIAAxkBAAIXRGOFDyk5Nxr5Qa5wh8E2TBrtWuvFAAJVHAACoL55SwbndTey56ntHgQ")
    bot_username = client.me.username
    user = await get_userbot(bot_username)
    async for msg in user.get_chat_history("sarhne_elnqyb"):
        if not msg.text in sarhne:
          sarhne.append(msg.text)
-   if message.from_user.username == "E_Z_9":
+   if message.from_user.username == "V_K_Z":
      await message.reply_text(f"**تم تنفيذ الامر بواسطة المطور بلال .**")
    else:
      await message.reply_text(f"**تم تحديث صراحه .**")
