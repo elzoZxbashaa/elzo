@@ -165,7 +165,7 @@ async def get_channelsr(bot_username):
       if not name:
         bot = channeldbsr.find_one({"bot_username": bot_username})
         if not bot:
-            return "https://t.me/R7_QX"
+            return "https://t.me/qkpqp"
         CHANNELsr[bot_username] = bot["channelsr"]
         return bot["channelsr"]
       return name
